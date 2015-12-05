@@ -1,0 +1,14 @@
+brass:
+  image: sinfonia/brass
+  volumes:
+  - ./brass:/var/app
+
+strings:
+  image: sinfonia/strings
+  volumes:
+  - ./strings:/var/app
+
+winds:
+  image: sinfonia/winds
+  volumes:
+  - ./winds:/var/app
