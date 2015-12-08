@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "andrew.bisset@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
